@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--RestTemplate:获取其他服务提供者的数据,它与服务消费者的区别就是没有在它注册中心进行注册，只是使用的其他的服务提供者-->
+    <!--RestTemplate 是 Spring 框架提供的基于 REST 的服务组件，底层是对 HTTP 请求及响应进⾏了封装，
+提供了很多访问 REST 服务的⽅法，可以简化代码开发。
+        SpringBoot中含有RestTemplate，所以不需要进行再次引入，父工程中引入了springboot整体场景包含-->
+    <parent>
+        <artifactId>aispringcloud</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>resttemplate</artifactId>
+
+</project>
